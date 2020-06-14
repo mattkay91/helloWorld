@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to Emblem</title>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="page">
+            <header id="pageheader" role="banner">
+				<nav id="header" role="navigation">
+					<ul>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</nav>
+				<div id="logo">
+					<h4>Emblem</h4> 
+					<img class="logo" src="media/images/emblem_logo_96.png" alt="logo">
+					<p>Rare,</p>
+					<p>Collectible</p>
+					<p>Books</p>
+				</div>
+				<a href="#content" class="skiplink" title="Go to main content of page">Skip to main content</a>
+            </header>
+			<section id="middle">
+				<section id="sidebar">
+					<nav id="side" role="navigation">
+						<ul>
+							<li><a href="home.html">Home</a></li>
+							<div class="dropdown">
+								<button class="dropbtn">
+									<li><a href="books.html">Books</a></li>
+								</button>
+								<div class="dropdown_menu">
+									<a href="#">20th Century Books</a>
+									<a href="19th_centurybooks.html">19th Century Books</a>
+									<a href="#">18th Century Books</a>
+									<a href="#">Rare Books</a>
+								</div>
+							</div>
+							<li><a href="delivery.html">Delivery</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Books as an Investment</a></li>
+						</ul>
+					</nav>
+				</section>
+				<div id="content" role="main">
+					<h2>19th Century Books</h2>
+					<p>Our catalogue provides a list of 19th Century books we currently hold in stock. However, if there is an item that you cannot find here, please feel free to contact us, 
+					as we are often able to secure books on demand.</p>
+					<section id="booklist">
+						<div class="booklist_img">
+							<img src="media/images/trumpet_major.jpg" alt="trumpet_major"></img>
+							<span class="caption">Price: £7000.00</span>
+							<span class="caption">Investment Rating: *****</span>
+						</div>
+						<div id="booktext">
+							<h3>Title: The Trumpet Major</h3>
+							<h5>Author: Thomas Hardy</h5>
+							<p>Book Description:  London: WH Smith, 1880. First Edition. Three volumes, housed in red velvet slip case. Velum bound. One of only 100 ever published 
+							by the publisher. Some scuffing on spine and on front cover. Also, inner liquid stains on several pages. But generally good condition for its age. This 
+							copy is signed, which is very unusual for any Hardy text, and increases the value of the text beyond non-signed copies. Expected annual increase in value of 7.1%. </p>
+						</div>
+					</section>
+					<section id="booklist">
+						<div class="booklist_img">
+							<img src="media/images/dickens_complete_works.jpg" alt="dickens"></img>
+							<span class="caption">Price: £2897.00</span>
+							<span class="caption">Investment Rating: ****</span>
+						</div>
+						<div id="booktext">
+							<h3>Title: The Complete Works</h3>
+							<h5>Author: Charles Dickens</h5>
+							<p>Book Description: Signed copy. London: Briggs and Blower, 1874-76., 1874. The Royal Literature Edition. Ten complete volumes. Vintage binding of luxuriant green with 
+							gilt titles, and gilt embossing of the spines; superbly marbled end pages and edges. Includes original  illustrations Greg, Smyth, Arnold, etc. Dickens signature on first 
+							inner page. A  well-preserved set, which represents a unique moment in history. Expected annual increase in value of 6.9%.  </p>
+						</div>
+					</section>
+					<section id="booklist">
+						<div class="booklist_img">
+							<img src="media/images/david_copperfield.jpg" alt="david_copperfield" style="width:50%; padding-left:2.6em"></img>
+							<span class="caption">Price: £4897.00</span>
+							<span class="caption">Investment Rating: ****</span>
+						</div>
+						<div id="booktext">
+							<h3>Title: David Copperfield</h3>
+							<h5>Author: Charles Dickens</h5>
+							<p>Book Description:  London: Regents and Blower, 1891. The Regents Literature Edition. One of only 300 ever published by the publisher; thus, very rare indeed. A true 
+							collector’s item. Tan calf-skin binding with gilt titles. Some scuffing on spine and on front cover. But generally good condition for its age. Some minor typographical 
+							issues, such as missing commas in chapters eleven and 12 titles. The copy is not signed.  Expected annual increase in value of 8.1%.</p>
+						</div>
+					</section>
+					<section id="booklist">
+						<div class="booklist_img">
+							<img src="media/images/jane_eyre.jpg" alt="jane_eyre"></img>
+							<span class="caption">Price: £3900.00</span>
+							<span class="caption">Investment Rating: ****</span>
+						</div>
+						<div id="booktext">
+							<h3>Title: Jane Eyre</h3>
+							<h5>Author: Charlotte Bronte</h5>
+							<p>Book Description: Maudling and Co, London, 1892. Hard Cover. Fourth Impression. One of only 500 published in this format.  Hard Cover. Fine condition with immaculate wood 
+							engravings by Bob Wallis on front cover, and illustrations by Thomas Dury throughout.. Extended introduction by Rebecca Sterns. Slipcase in blue velvet is solid; only very mild 
+							scuffing on sides and bottom.  This is a an unsigned copy.</p>
+						</div>
+					</section>
+					<section id="booklist">
+						<div class="booklist_img">
+							<img src="media/images/mill_on_floss.jpg" alt="mill_on_floss"></img>
+							<span class="caption">Price: £2060.00</span>
+							<span class="caption">Investment Rating: **</span>
+						</div>
+						<div id="booktext">
+							<h3>Title: Mill on the Floss</h3>
+							<h5>Author: George Eliot</h5>
+							<p>Book Description: William Bigwort, Edinburgh, 1860. First Edition. Three octavo volumes; publisher's tan-brown fabric, beautifully embossed in blind and gold lettered on spines;. 
+							Cream end pages, with binder's ticket of Eddis & Remartas to the back of volume one. First volume has been expertly restored at corners, otherwise  a remarkable, original and well-preserved 
+							collection. Early ownership signature ("Reginald Peters") at beginning of each volume. </p>
+						</div>
+					</section>
+					<section id="booklist">
+						<div class="booklist_img">
+							<img src="media/images/northhanger_abbey.jpg" alt="northhanger_abbey"></img>
+							<span class="caption">Price: £1700.00</span>
+							<span class="caption">Investment Rating: ***</span>
+						</div>
+						<div id="booktext">
+							<h3>Title: Northhanger Abbey</h3>
+							<h5>Author: Jane Austen</h5>
+							<p>Book Description: The Literary Society, London, 1989. Hard Cover. Sixth Impression. Hard Cover. Near Fine condition with some minor scuffing to spine. Cover wood engravings by Bob Wallis. 
+							Extended introduction by Robert Monks. Slipcase in silver is solid, but display mild scuffing on sides and bottom.  Interior has some pencil underlining to text in chapter 2, 5, 9 and 11. 
+							This is a an unsigned copy. </p>
+						</div>
+					</section>
+				</div>
+			</section>
+			<footer id="pagefooter" role="contentinfo">
+				<nav id="footer" role="navigation">
+					<ul>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">Returns</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div>
+		
+    </body>
+</html>
